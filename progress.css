@@ -1,0 +1,151 @@
+/* =========================
+   PAGE BACKGROUND
+========================= */
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#020617,#0f172a);
+min-height:100vh;
+color:white;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:70px;
+background:#020617;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 60px;
+border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+
+.logo{
+font-size:22px;
+font-weight:600;
+color:#22d3ee;
+}
+
+
+/* =========================
+   MAIN CONTENT AREA
+========================= */
+
+.progress-main{
+margin-top:100px;
+display:flex;
+justify-content:center;
+padding-bottom:120px;
+}
+
+
+/* =========================
+   CARD CONTAINER
+========================= */
+
+.progress-container{
+width:900px;
+background:linear-gradient(145deg,#0f172a,#020617);
+padding:40px;
+border-radius:20px;
+box-shadow:0 0 30px rgba(34,211,238,0.08);
+}
+
+
+/* =========================
+   DAY TITLE
+========================= */
+
+.progress-container h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+
+/* =========================
+   TOPIC TEXT
+========================= */
+
+.progress-container p{
+font-size:16px;
+color:#cbd5f5;
+margin-bottom:25px;
+}
+
+
+/* =========================
+   VIDEO
+========================= */
+
+.progress-container iframe{
+width:100%;
+height:450px;
+border-radius:12px;
+border:none;
+margin-bottom:30px;
+}
+
+
+/* =========================
+   BUTTON AREA
+========================= */
+
+.action-buttons{
+display:flex;
+align-items:center;
+gap:20px;
+margin-top:10px;
+}
+
+
+/* COMPLETE BUTTON */
+
+.complete-btn{
+background:linear-gradient(90deg,#22d3ee,#3b82f6);
+border:none;
+padding:12px 28px;
+border-radius:25px;
+color:white;
+font-size:15px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.complete-btn:hover{
+transform:scale(1.05);
+}
+
+
+/* BACK LINK */
+
+.back-link{
+color:#22d3ee;
+text-decoration:none;
+font-size:15px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+.footer{
+position:fixed;
+bottom:0;
+width:100%;
+text-align:center;
+padding:15px;
+background:#020617;
+color:#94a3b8;
+}
